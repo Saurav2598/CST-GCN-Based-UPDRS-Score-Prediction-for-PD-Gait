@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+carepd/
+
+# Local environment secrets
+.env
+.env.*
+
+# Datasets and generated preprocessing outputs
+assets/datasets/
+*.pkl
+*.npz
+
+# Trained models and training outputs
+checkpoints/
+runs/
+wandb/
+*.pt
+*.pth
+*.onnx
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
